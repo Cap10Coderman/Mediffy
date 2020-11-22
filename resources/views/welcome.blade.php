@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <link rel="stylesheet" href="url('css/style.css')"/>
     </head>
     <body >
-        <img src="resources\css\medify_background.jpg" height="500px" width="500px">
-        </img>
-    
+    <div>
+       <h1>
+       Medify
+       </h1>
+    </div>
     </body>
 </html>
