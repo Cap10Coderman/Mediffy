@@ -1,9 +1,22 @@
+
+
 div {
-    height: 200px;
+    height: 100px;
     width: 400px;
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
+}
+
+html
+{
+    background-image: url("/img/home.jpg");
+}
+
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200px;
 }

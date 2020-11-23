@@ -9,11 +9,14 @@
 
     <body >
 
-    <div>
-       <h1>
-       Medify
-       </h1>
-    </div>
     
+       <br> 
+       <h1>
+           
+        &nbsp;  Mediffy 
+       </h1>
+        
+    
+
     </body>
 </html>
