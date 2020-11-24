@@ -19,7 +19,7 @@
                        Mediffy 
                   </h1>
                   
-                  <div class="main">
+                <!--  <div class="main">
                      <h3 class="hellife">
                                     <span >H</span>
                                       <span >E</span>
@@ -33,6 +33,7 @@
                                                                       <span >E</span>
                   </h3>
                   </div>
+                  --->
                   <br><br><br><br>
                   <br>
 
@@ -45,10 +46,29 @@
                   </div>             
           </div>
       </div>     
-
+         
       <div class="split right">
          <div class="centered2">
-                     
+
+            <div class="animated-title" id="bfor">
+               <div class="text-top">
+                 <div>
+                   <span class="top">Built For</span>
+                   <span>Doctors,Patients</span>
+                 </div>
+               </div>
+               <div class="text-bottom">
+                 <div>and Pharmacy</div>
+               </div>
+             </div>
+
+
+
+
+
+
+
+                   <!-- DOCTOR FORM--->   
             <div class="login-box" id="doc">
                <h2> Doctor Login</h2>
                <form action="" id="docform">

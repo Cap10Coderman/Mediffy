@@ -335,3 +335,71 @@ h1{
     opacity: 0.9;
     font-size: 25px;
   }
+ /* FOR ALL*/
+ @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: rgb(92, 187, 68);
+  font-family: Roboto, Arial, sans-serif;
+  height: 50vmin;
+  left: 70%;
+  position: absolute;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  width: 60vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  font-size: 60px;
+  
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 8vmin;
+  padding: 1vmin 0;
+  font-size: 60px;
+  bottom: 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid #000;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #dfe070;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
+.top
+{
+  margin: 1px;
+}
