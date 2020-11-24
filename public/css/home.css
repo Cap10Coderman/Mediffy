@@ -60,6 +60,7 @@ h1{
     cursor: pointer;
     border-radius: 12px;
     opacity: 0.85;
+    outline: 0;
   }
         /*DOCTOR BUTTON*/
 
@@ -139,6 +140,7 @@ h1{
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    visibility: hidden;
   }
   
   .login-box h2 {
@@ -281,4 +283,7 @@ h1{
       bottom: 100%;
     }
   }
-  
+
+  label{
+    font-size: 50px;
+  }
