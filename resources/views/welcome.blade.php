@@ -14,16 +14,35 @@
     
       <div class="split left">
          <div class="centered1">
+            <br><br><br><br><br><br><br><br><br>
                    <h1>
                        Mediffy 
                   </h1>
                   
-                <button class="button button1" style="vertical-align:middle" onclick="docformvisibility()"><span>DOCTOR LOGIN</span></button>
+                  <div class="main">
+                     <h3 class="hellife">
+                                    <span >H</span>
+                                      <span >E</span>
+                                           <span >L</span>
+                                                <span >L</span>
+                                                      <span>O</span>
+                               &nbsp; &nbsp;
+                                                          <span >L</span>
+                                                              <span >I</span>
+                                                                  <span >F</span>
+                                                                      <span >E</span>
+                  </h3>
+                  </div>
+                  <br><br><br><br>
+                  <br>
+
+                  <div>
+                  <button class="button button1" style="vertical-align:middle" onclick="docformvisibility()"><span>DOCTOR LOGIN</span></button>
                   
                   <button class="button button2" style="vertical-align:middle" onclick="patformvisibility()"><span>PATIENT LOGIN</span></button>
                
-                  <button class="button button3" style="vertical-align:middle"><span>PHARMACY LOGIN</span></button>
-                               
+                  <button class="button button3" style="vertical-align:middle" onclick="pharformvisibility()"><span>PHARMACY LOGIN</span></button>
+                  </div>             
           </div>
       </div>     
 
@@ -51,7 +70,7 @@
                </form>
             </div>
 
-            <!--PATINT FORM--->
+            <!--PATIENT FORM--->
 
             <div class="login-box" id="pat">
                <h2> Patient Login</h2>
@@ -73,6 +92,30 @@
                   </a>
                </form>
             </div>
+
+            <!--PHARMACY FORM--->
+
+            <div class="login-box" id="phar">
+               <h2> Pharmacy Login</h2>
+               <form action="" id="patform">
+                  <div class="user-box">
+                     <input type="text" name="" required="">
+                     <label>Pharmacy Id</label>
+                  </div>
+                  <div class="user-box">
+                     <input type="password" name="" required="">
+                     <label>Password</label>
+                  </div>
+                  <a href="">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     LOGIN
+                  </a>
+               </form>
+            </div>
+
                      
           </div>
       </div>
