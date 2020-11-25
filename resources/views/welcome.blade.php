@@ -18,7 +18,7 @@
                        Mediffy 
                   </h1>
                   
-                <!--  <div class="main">
+                  <div class="main">
                      <h3 class="hellife">
                                     <span >H</span>
                                       <span >E</span>
@@ -32,7 +32,7 @@
                                                                       <span >E</span>
                   </h3>
                   </div>
-                  --->
+                  
                   <br><br><br><br>
                   <br>
 
@@ -42,15 +42,16 @@
                   <button class="button button2" style="vertical-align:middle" onclick="patformvisibility()"><span>PATIENT LOGIN</span></button>
                
                   <button class="button button3" style="vertical-align:middle" onclick="pharformvisibility()"><span>PHARMACY LOGIN</span></button>
-                  </div>             
+
+                  
+                  </div>       
+               
           </div>
       </div>     
          
       <div class="split right">
          <div class="centered2">
->
-
-<div id="fly-in">  
+      <div id="fly-in">  
          <div><span>Built</span>For</div>
          <div><span>Doctors</span></div>
             <div><span>Patients </span></div>
@@ -77,6 +78,9 @@
                      <span></span>
                      LOGIN
                   </a>
+                  <br><br>
+                  <button>Create an Account</button>
+               
                </form>
             </div>
 
@@ -125,7 +129,7 @@
                   </a>
                </form>
             </div>
-
+            
                      
           </div>
       </div>

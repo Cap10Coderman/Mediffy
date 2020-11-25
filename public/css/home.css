@@ -107,6 +107,7 @@ h1{
     background-color: #4CAF50;
     color: white;
   }
+  
 
   .button span {
     cursor: pointer;
@@ -344,8 +345,8 @@ h1{
 
 
 #fly-in {
-  font-size: 5em;
-  position:left;
+  font-size: 8em;
+  position:top;
   color: cornsilk;
   margin: 5vh auto;
   height: 5vh; 
@@ -362,7 +363,7 @@ h1{
  position: fixed; 
   margin: 1vh 0;
   opacity: 0;
-  left: 1vw;
+  left: 0vw;
   width: 5vw;
   animation: switch 32s linear infinite;
 }
