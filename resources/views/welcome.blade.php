@@ -10,7 +10,6 @@
 
 
     <body >
-
     
       <div class="split left">
          <div class="centered1">
@@ -49,24 +48,15 @@
          
       <div class="split right">
          <div class="centered2">
+>
 
-            <div class="animated-title" id="bfor">
-               <div class="text-top">
-                 <div>
-                   <span class="top">Built For</span>
-                   <span>Doctors,Patients</span>
-                 </div>
-               </div>
-               <div class="text-bottom">
-                 <div>and Pharmacy</div>
-               </div>
-             </div>
-
-
-
-
-
-
+<div id="fly-in">  
+         <div><span>Built</span>For</div>
+         <div><span>Doctors</span></div>
+            <div><span>Patients </span></div>
+               <div><span>and</span> </div>
+               <div><span>Pharmacies</span></div>
+   </div>
 
                    <!-- DOCTOR FORM--->   
             <div class="login-box" id="doc">
