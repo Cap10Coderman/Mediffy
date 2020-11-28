@@ -6,7 +6,7 @@
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
       <div class="container-fluid">
         <!-- Brand -->
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">User profile</a>
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">Doctor profile</a>
         <!-- Form -->
         <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
           <div class="form-group mb-0">
@@ -24,10 +24,10 @@
             <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="/img/amalvspropic.jpg">
+                  <img alt="Image placeholder" src="/img/sulupropic.jpg">
                 </span>
                 <div class="media-body ml-2 d-none d-lg-block">
-                  <span class="mb-0 text-sm  font-weight-bold">Amal V.S</span>
+                  <span class="mb-0 text-sm  font-weight-bold">Gokul P Babu</span>
                 </div>
               </div>
             </a>
@@ -69,8 +69,8 @@
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hello Dr Amal</h1>
-            <p class="text-white mt-0 mb-5">This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
+            <h1 class="display-2 text-white">Hello Dr Sulu</h1>
+            <p class="text-white mt-0 mb-5">Some data is to be added.................................................................................................</p>
             <a href="#!" class="btn btn-info">Edit profile</a>
           </div>
         </div>
@@ -85,17 +85,17 @@
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img src="/img/amalvspropic.jpg" class="rounded-circle">   <!-- IMAGE IS TO BE GIVEN-->
+                    <img src="/img/sulupropic.jpg" class="rounded-circle">   <!-- IMAGE IS TO BE GIVEN-->
                   </a>
                 </div>
               </div>
             </div>
             <br><br><br><br>
             <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
-              <div class="d-flex justify-content-between">
+            <!--<div class="d-flex justify-content-between">
                 <a href="#" class="btn btn-sm btn-info mr-4">Connect</a>
                 <a href="#" class="btn btn-sm btn-default float-right">Message</a>
-              </div>
+              </div>-->
             </div>
             <!--
             <div class="card-body pt-0 pt-md-4">
@@ -120,16 +120,16 @@
             -->
               <div class="text-center">
                 <h3>
-                  Amal V.S<span class="font-weight-light">, 27</span>
+                  Gokul P Babu<span class="font-weight-light">, 27</span>
                 </h3>
                 <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Paravoor,Kerala
+                  <i class="ni location_pin mr-2"></i>Kodungalloor,Kerala
                 </div>
                 <div class="h5 mt-4">
                   <i class="ni business_briefcase-24 mr-2"></i>Medical Specialist
                 </div>
                 <div>
-                  <i class="ni education_hat mr-2"></i>University of Paravoor
+                  <i class="ni education_hat mr-2"></i>University of Kodungalloor
                 </div>
                 <hr class="my-4">
                 <p>blah blah blah</p>
