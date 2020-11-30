@@ -70,8 +70,8 @@
         <div class="row">
           <div class="col-lg-7 col-md-10">
             <h1 class="display-2 text-white">Hello Dr Sulu</h1>
-            <p class="text-white mt-0 mb-5">Some data is to be added.................................................................................................</p>
-            <a href="#!" class="btn btn-info">Edit profile</a>
+            <p class="text-white mt-0 mb-5">(BIO)Some data is to be added.................................................................................................</p>
+           <!-- <a href="#!" class="btn btn-info">Edit profile</a>-->
           </div>
         </div>
       </div>
@@ -92,11 +92,18 @@
             </div>
             <br><br><br><br>
             <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn btn-sm btn-default  float-right">Edit Profile</a>
+              </div>
+
             <!--<div class="d-flex justify-content-between">
+
                 <a href="#" class="btn btn-sm btn-info mr-4">Connect</a>
                 <a href="#" class="btn btn-sm btn-default float-right">Message</a>
               </div>-->
             </div>
+            
+            
             <!--
             <div class="card-body pt-0 pt-md-4">
               <div class="row">
@@ -138,6 +145,7 @@
             </div>
           </div>
         </div>
+        <!--
         <div class="col-xl-8 order-xl-1">
           <div class="card bg-secondary shadow">
             <div class="card-header bg-white border-0">
@@ -150,6 +158,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="card-body">
               <form>
                 <h6 class="heading-small text-muted mb-4">User information</h6>
@@ -183,8 +192,8 @@
                     </div>
                   </div>
                 </div>
-                <hr class="my-4">
-                <!-- Address -->
+                <hr class="my-4">-->
+                <!-- Address 
                 <h6 class="heading-small text-muted mb-4">Contact information</h6>
                 <div class="pl-lg-4">
                   <div class="row">
@@ -217,7 +226,7 @@
                   </div>
                 </div>
                 <hr class="my-4">
-                <!-- Description -->
+                 Description 
                 <h6 class="heading-small text-muted mb-4">About me</h6>
                 <div class="pl-lg-4">
                   <div class="form-group focused">
@@ -238,7 +247,7 @@
         <div class="copyright">
           <p>Made with <a href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">Argon Dashboard</a> by Creative Tim</p>
         </div>
-      </div>
+      </div>-->
     </div>
   </footer>
 </body>
