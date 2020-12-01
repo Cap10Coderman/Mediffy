@@ -1,5 +1,9 @@
+
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{asset('css/docprofile.css')}}">
+<head>
+<script src="{{ url('js/doc_visibility.js') }}"></script>
+</head>
 <body>
   <div class="main-content">
     <!-- Top navbar -->
@@ -62,7 +66,7 @@
       </div>
     </nav>
     <!-- Header -->
-    <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 600px; background-image: url(/img/home.jpg); background-size: cover; background-position: center top;">
+    <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 400px; background-image: url(/img/home.jpg); background-size: cover; background-position: center top;">
       <!-- Mask -->
       <span class="mask bg-gradient-default opacity-8"></span>
       <!-- Header container -->
@@ -93,7 +97,7 @@
             <br><br><br><br>
             <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
               <div class="d-flex justify-content-between">
-                <a href="#" class="btn btn-sm btn-default  float-right">Edit Profile</a>
+              <a href="#" class="btn btn-sm btn-default  float-right" onclick='editprofilevisibility()' >Edit Profile</a>
               </div>
 
             <!--<div class="d-flex justify-content-between">
@@ -145,13 +149,24 @@
             </div>
           </div>
         </div>
-        <!--
-        <div class="col-xl-8 order-xl-1">
+    </div>
+
+
+
+<script>
+   document.getElementById("edit").style.visibility = "hidden";
+  </script>
+
+    <!-- EDIT PROFILE -->
+
+<div id="edit" style="visibility: hidden;">
+
+        <div class="col-xl-8 order-xl-1" >
           <div class="card bg-secondary shadow">
             <div class="card-header bg-white border-0">
               <div class="row align-items-center">
                 <div class="col-8">
-                  <h3 class="mb-0">My account</h3>
+                  <h3 class="mb-0">Edit Profile</h3>
                 </div>
                 <div class="col-4 text-right">
                   <a href="#!" class="btn btn-sm btn-primary">Settings</a>
@@ -167,13 +182,13 @@
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-username">Username</label>
-                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="lucky.jesse">
+                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="sulu">
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label" for="input-email">Email address</label>
-                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="jesse@example.com">
+                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="sulu@example.com">
                       </div>
                     </div>
                   </div>
@@ -181,19 +196,19 @@
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-first-name">First name</label>
-                        <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="First name" value="Lucky">
+                        <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="First name" value="Gokul">
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-last-name">Last name</label>
-                        <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="Jesse">
+                        <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="P Babu">
                       </div>
                     </div>
                   </div>
                 </div>
-                <hr class="my-4">-->
-                <!-- Address 
+                <hr class="my-4">
+                 Address 
                 <h6 class="heading-small text-muted mb-4">Contact information</h6>
                 <div class="pl-lg-4">
                   <div class="row">
@@ -238,14 +253,17 @@
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-  </div>
+      </div>
+
+                                                                    <!-- FOOTER-->
+
   <footer class="footer">
     <div class="row align-items-center justify-content-xl-between">
       <div class="col-xl-6 m-auto text-center">
         <div class="copyright">
-          <p>Made with <a href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">Argon Dashboard</a> by Creative Tim</p>
+          <p>Made with <a href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">Laravel</a> by Magik Merlyn</p>
         </div>
       </div>-->
     </div>
