@@ -1,309 +1,230 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="{{asset('css/patprofile.css')}}">
 
-    <script src="{{ url('js/patprofile.js') }}"></script>
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="{{asset('css/patprofile.css')}}">
+ <head>
+ <script src="{{ url('js/patprofile.js') }}"></script>
  </head>
-
-
-
-
-
-
-
-
-
-<body class="profile-page sidebar-collapse">
-    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
-      <div class="container">
-        <div class="navbar-translate">
-          <a class="navbar-brand" href="https://www.creative-tim.com/product/material-kit/?partner=101249" target="_blank">
-            Material Kit </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="dropdown nav-item">
-              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                <i class="material-icons">apps</i> Components
+ <body>
+    <div class="main-content">
+      <!-- Top navbar -->
+      <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+        <div class="container-fluid">
+          <!-- Brand -->
+          <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">User profile</a>
+          <!-- Form -->
+          <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+            <div class="form-group mb-0">
+              <div class="input-group input-group-alternative">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+                <input class="form-control" placeholder="Search" type="text">
+              </div>
+            </div>
+          </form>
+          <!-- User -->
+          <ul class="navbar-nav align-items-center d-none d-md-flex">
+            <li class="nav-item dropdown">
+              <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="media align-items-center">
+                  <span class="avatar avatar-sm rounded-circle">
+                    <img alt="Image placeholder" src="/img/amalvspropic.jpg">
+                  </span>
+                  <div class="media-body ml-2 d-none d-lg-block">
+                    <span class="mb-0 text-sm  font-weight-bold">Amal V.S</span>
+                  </div>
+                </div>
               </a>
-              <div class="dropdown-menu dropdown-with-icons">
-                <a href="../index.html" class="dropdown-item">
-                  <i class="material-icons">layers</i> All Components
+              <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                <div class=" dropdown-header noti-title">
+                  <h6 class="text-overflow m-0">Welcome!</h6>
+                </div>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-single-02"></i>
+                  <span>My profile</span>
                 </a>
-                <a href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html" class="dropdown-item">
-                  <i class="material-icons">content_paste</i> Documentation
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-settings-gear-65"></i>
+                  <span>Settings</span>
+                </a>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-calendar-grid-58"></i>
+                  <span>Activity</span>
+                </a>
+                <a href="../examples/profile.html" class="dropdown-item">
+                  <i class="ni ni-support-16"></i>
+                  <span>Support</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#!" class="dropdown-item">
+                  <i class="ni ni-user-run"></i>
+                  <span>Logout</span>
                 </a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-                <i class="material-icons">cloud_download</i> Download
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
-                <i class="fa fa-facebook-square"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
-                <i class="fa fa-instagram"></i>
-              </a>
             </li>
           </ul>
         </div>
+      </nav>
+      <!-- Header -->
+      <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 400px; background-image: url(img/home.jpg); background-size: cover; background-position: center top;">
+        <!-- Mask -->
+        <span class="mask bg-gradient-default opacity-8"></span>
+        <!-- Header container -->
+        <div class="container-fluid d-flex align-items-center">
+          <div class="row">
+            <div class="col-lg-7 col-md-10">
+              <h1 class="display-2 text-white">Hello Amal</h1>
+              <p class="text-white mt-0 mb-5">(BIO) sOME DATA TO BE ADDED.................................................................................</p>
+            
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <div class="page-header header-filter" data-parallax="true" style="background-image:url('https://demos.creative-tim.com/bs3/material-kit/assets/img/examples/city.jpg');"></div>
-    <div class="main main-raised">
-      <div class="profile-content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 ml-auto mr-auto">
-              <div class="profile">
-                <div class="avatar">
-                  <img src="https://www.livelingua.com/img/profilesTeachers/103/Guillaume-Deneufbourg-Square_Profile_S.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
-                </div>
-                <div class="name">
-                  <h3 class="title">Christian Louboutin</h3>
-                  <h6>Designer</h6>
-                  <a href="#pablo" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-dribbble"></i></a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-pinterest"></i></a>
+      <!-- Page content -->
+      <div class="container-fluid mt--7">
+        <div class="row">
+          <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+            <div class="card card-profile shadow">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 order-lg-2">
+                  <div class="card-profile-image">
+                    <a href="#">
+                      <img src="/img/amalvspropic.jpg" class="rounded-circle">
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div class="follow">
-              <button class="btn btn-fab btn-primary btn-round" rel="tooltip" title="" data-original-title="Follow this user">
-                <i class="material-icons">add</i></button>
-            </div>
-            </div>
-          </div>
-          <div class="description text-center">
-            <p>An artist of considerable range, Chet Faker &#x2014; the name taken by Melbourne-raised, Brooklyn-based Nick Murphy &#x2014; writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. </p>
-          </div>
-          <div class="row">
-            <div class="col-md-6 ml-auto mr-auto">
-              <div class="profile-tabs">
-                <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#work" role="tab" data-toggle="tab">
-                      <i class="material-icons">palette</i> Work
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#studio" role="tab" data-toggle="tab">
-                      <i class="material-icons">camera</i> Studio
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
-                      <i class="material-icons">favorite</i> Favorite
-                    </a>
-                  </li>
-                </ul>
+    <br>
+              <div class="card-body pt-0 pt-md-4">
+                <div class="row">
+                  <div class="col">
+                    <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                      
+                    </div>
+                  </div>
+                </div><br>
+                <br>
+                <div class="text-center">
+                  <h3>
+                    Amal V S<span class="font-weight-light">, 23</span>
+                  </h3>
+                  <div class="h5 font-weight-300">
+                    <i class="ni location_pin mr-2"></i> Paravoor,Kerala
+                  </div>
+                  <div class="h5 mt-4">
+                    <i class="ni business_briefcase-24 mr-2"></i>Softwarwe Analyst
+                  </div>
+                  <div>
+                    <i class="ni education_hat mr-2"></i>University of Paravoor
+                  </div>
+                  <hr class="my-4">
+                  <p>blaah blaah....</p>
+                  <a href="#">Show more</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="tab-content tab-space">
-            <div class="tab-pane work active show" id="work">
-              <div class="row">
-                <div class="col-md-7 ml-auto mr-auto ">
-                  <h4 class="title">Latest Collections</h4>
-                  <div class="row collections">
-                    <div class="col-md-6">
-                      <div class="card card-background" style="background-image: url('http://www.ansa.it/webimages/img_457x/2018/1/9/2b87dfb4328e8a6f1dc643aa69af5fc9.jpg')">
-                        <a href="#pablo"></a>
-                        <div class="card-body">
-                          <label class="badge badge-warning">Spring 2016</label>
-                          <a href="#pablo">
-                            <h2 class="card-title">Stilleto</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="card card-background" style="background-image: url('https://i1.wp.com/blog.kakcho.com/wp-content/uploads/2017/12/xeanz6-l-610x610-jacket-tumblr-armygreenjacket-black-turtleneck-blackturtleneck-bag-blackbag-handbag-denim-jeans-bluejeans-pumps-.jpg')">
-                        <a href="#pablo"></a>
-                        <div class="card-body">
-                          <label class="badge badge-info">Spring 2016</label>
-                          <a href="#pablo">
-                            <h2 class="card-title">High Heels</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="card card-background" style="background-image: url('https://s3-eu-west-2.amazonaws.com/cadandthedandy/wp-content/uploads/2018/05/30130124/bespoke-business-suits-savile-row-3.jpg')">
-                        <a href="#pablo"></a>
-                        <div class="card-body">
-                          <label class="badge badge-danger">Summer 2016</label>
-                          <a href="#pablo">
-                            <h2 class="card-title">Flats</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="card card-background" style="background-image: url('http://www.backdownsouth.com/wp-content/uploads/2016/11/sockfancy004.jpg')">
-                        <a href="#pablo"></a>
-                        <div class="card-body">
-                          <label class="badge badge-success">Winter 2015</label>
-                          <a href="#pablo">
-                            <h2 class="card-title">Men's Sneakers</h2>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+          <div class="col-xl-8 order-xl-1">
+            <div class="card bg-secondary shadow">
+              <div class="card-header bg-white border-0">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <h3 class="mb-0">My account</h3>
                   </div>
-                </div>
-  
-                <div class="col-md-2 mr-auto ml-auto stats">
-                  <h4 class="title">Stats</h4>
-                  <ul class="list-unstyled">
-                    <li><b>60</b> Products</li>
-                    <li><b>4</b> Collections</li>
-                    <li><b>331</b> Influencers</li>
-                    <li><b>1.2K</b> Likes</li>
-                  </ul>
-                  <hr>
-                  <h4 class="title">About his Work</h4>
-                  <p class="description">French luxury footwear and fashion. The footwear has incorporated shiny, red-lacquered soles that have become his signature.</p>
-                  <hr>
-                  <h4 class="title">Focus</h4>
-                  <span class="badge badge-primary">Footwear</span>
-                  <span class="badge badge-rose">Luxury</span>
-                </div>
-  
-              </div>
-            </div>
-            <div class="tab-pane connections" id="studio">
-              <div class="row">
-                <div class="col-md-5 ml-auto mr-auto">
-                  <div class="card card-profile card-plain">
-                    <div class="row">
-                      <div class="col-md-5">
-                        <div class="card-header card-header-image">
-                          <a href="#pablo">
-                            <img class="img" src="http://www.ishootshows.com/wp-content/uploads/2008/07/todd-owyoung-portrait-145238_COB8628-square-600px.jpg">
-                          </a>
-                          <div class="colored-shadow" style="background-image: url('http://www.ishootshows.com/wp-content/uploads/2008/07/todd-owyoung-portrait-145238_COB8628-square-600px.jpg'); opacity: 1;"></div></div>
-                      </div>
-                      <div class="col-md-7">
-                        <div class="card-body">
-                          <h4 class="card-title">Anthon Jard</h4>
-                          <h6 class="card-category text-muted">Model</h6>
-  
-                          <p class="card-description">
-                            Don't be scared of the truth because we need to restart the human foundation in truth...
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-  
-                <div class="col-md-5 mr-auto ml-auto">
-                  <div class="card card-profile card-plain">
-                    <div class="row">
-                      <div class="col-md-5">
-                        <div class="card-header card-header-image">
-                          <a href="#pablo">
-                            <img class="img" src="http://new.kevinrees.com/wp-content/uploads/2016/12/Kevin-Portrait-Square.jpg">
-                          </a>
-                          <div class="colored-shadow" style="background-image: url('http://new.kevinrees.com/wp-content/uploads/2016/12/Kevin-Portrait-Square.jpg'); opacity: 1;"></div></div>
-                      </div>
-                      <div class="col-md-7">
-                        <div class="card-body">
-                          <h4 class="card-title">Marc Jacobs</h4>
-                          <h6 class="card-category text-muted">Designer</h6>
-  
-                          <p class="card-description">
-                            Don't be scared of the truth because we need to restart the human foundation in truth...
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="col-4 text-right">
+                    <a href="#!" class="btn btn-sm btn-primary">Edit Profile</a>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-5 ml-auto mr-auto">
-                  <div class="card card-profile card-plain">
+              <div class="card-body">
+                <form>
+                  <h6 class="heading-small text-muted mb-4">User information</h6>
+                  <div class="pl-lg-4">
                     <div class="row">
-                      <div class="col-md-5">
-                        <div class="card-header card-header-image">
-                          <a href="#pablo">
-                            <img class="img" src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU3Nzk2NTA0Njc1ODIwNTQ5/rebbeca-marie-gomez-aka-becky-g-poses-for-a-portrait-at-the-2017-latin-american-music-awards-at-dolby-theatre-on-october-25-2017-in-hollywood-california-photo-by-gabriel-olsen_getty-images-square.jpg">
-                          </a>
-                          <div class="colored-shadow" style="background-image: url('https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU3Nzk2NTA0Njc1ODIwNTQ5/rebbeca-marie-gomez-aka-becky-g-poses-for-a-portrait-at-the-2017-latin-american-music-awards-at-dolby-theatre-on-october-25-2017-in-hollywood-california-photo-by-gabriel-olsen_getty-images-square.jpg'); opacity: 1;"></div></div>
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-username">Full Name</label>
+                          <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="Amal V S">
+                        </div>
                       </div>
-                      <div class="col-md-7">
-                        <div class="card-body">
-                          <h4 class="card-title">Kendall Jenner</h4>
-                          <h6 class="card-category text-muted">Model</h6>
-  
-                          <p class="card-description">
-                            I love you like Kanye loves Kanye. Don't be scared of the truth.
-                          </p>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-email">Email address</label>
+                          <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="pinky@example.com">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-first-name">First name</label>
+                          <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="First name" value="Amal">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-last-name">Last name</label>
+                          <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="V S">
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-  
-                <div class="col-md-5 ml-auto mr-auto">
-                  <div class="card card-profile card-plain">
+                  <hr class="my-4">
+                  <!-- Address -->
+                  <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                  <div class="pl-lg-4">
                     <div class="row">
-                      <div class="col-md-5">
-                        <div class="card-header card-header-image">
-                          <a href="#pablo">
-                            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Jm45nkeAjmUPtmaxAKvFEMepzVTBQvDm2Y5MgcIOVcHY4iIR">
-                          </a>
-                          <div class="colored-shadow" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Jm45nkeAjmUPtmaxAKvFEMepzVTBQvDm2Y5MgcIOVcHY4iIR'); opacity: 1;"></div></div>
+                      <div class="col-md-12">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-address">Address</label>
+                          <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="Paravoor" type="text">
+                        </div>
                       </div>
-                      <div class="col-md-7">
-                        <div class="card-body">
-                          <h4 class="card-title">George West</h4>
-                          <h6 class="card-category text-muted">Model/DJ</h6>
-  
-                          <p class="card-description">
-                            I love you like Kanye loves Kanye.
-                          </p>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-city">City</label>
+                          <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="Kochi">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group focused">
+                          <label class="form-control-label" for="input-country">Country</label>
+                          <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="India">
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-country">Postal code</label>
+                          <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code">
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane text-center gallery" id="favorite">
-              <div class="row">
-                <div class="col-md-3 ml-auto">
-                  <img src="http://www.globalfashionstreet.com/wp-content/uploads/2018/03/the-different-kinds-of-womens-street-fashion-style-1.jpg" class="rounded">
-                  <img src="https://smhttp-ssl-33667.nexcesscdn.net/manual/wp-content/uploads/2017/08/street-style-mens-overcoat.jpg" class="rounded">
-                </div>
-                <div class="col-md-3 mr-auto">
-                  <img src="http://fashiongum.com/wp-content/uploads/2015/01/stilettos-summer-shoes-trend-6.jpg" class="rounded">
-                  <img src="https://smhttp-ssl-33667.nexcesscdn.net/manual/wp-content/uploads/2016/06/pocket-square-how-to-1170x736.jpg" class="rounded">
-                  <img src="https://rachealnaluyange.files.wordpress.com/2014/06/2012-fashion-bags-hot-women-s-handbag-b1462-women-s-handbag-vintage-one-shoulder-cross-body.jpg" class="rounded">
-                </div>
+                  <hr class="my-4">
+                  <!-- Description -->
+                  <h6 class="heading-small text-muted mb-4">About me</h6>
+                  <div class="pl-lg-4">
+                    <div class="form-group focused">
+                      <label>About Me</label>
+                      <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ...">Psycho</textarea>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="footer text-center">
-     <p>Made with <a href="https://www.creative-tim.com/product/material-kit/?partner=101249" target="_blank">Material Kit</a> by Creative Tim</p>
+    <footer class="footer">
+      <div class="row align-items-center justify-content-xl-between">
+        <div class="col-xl-6 m-auto text-center">
+          <div class="copyright">
+            <p>Made with <a href="https://www.creative-tim.com/product/argon-dashboard" target="_blank">laravel</a> by Magik Merlyn</p>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
