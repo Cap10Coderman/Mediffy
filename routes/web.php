@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/doc', function () {
     return view('docprofile');
 });
+
+Route::get('/pat', function () {
+    return view('patprofile');
+});

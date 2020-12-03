@@ -146,9 +146,12 @@
                 <p>blah blah blah</p>
                 <a href="#">Show more</a>
               </div>
+            
             </div>
+            
           </div>
         </div>
+    
     </div>
 
 
