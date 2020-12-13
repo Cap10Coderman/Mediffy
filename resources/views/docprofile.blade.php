@@ -108,7 +108,7 @@
             </div>
             
             
-            <!--
+            
             <div class="card-body pt-0 pt-md-4">
               <div class="row">
                 <div class="col">
@@ -128,7 +128,7 @@
                   </div>
                 </div>
               </div>
-            -->
+            
               <div class="text-center">
                 <h3>
                   Gokul P Babu<span class="font-weight-light">, 27</span>
