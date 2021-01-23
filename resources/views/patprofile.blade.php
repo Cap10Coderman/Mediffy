@@ -73,8 +73,9 @@
         <div class="container-fluid d-flex align-items-center">
           <div class="row">
             <div class="col-lg-7 col-md-10">
-              <h1 class="display-2 text-white">Hello Amal</h1>
-              <p class="text-white mt-0 mb-5">(BIO) sOME DATA TO BE ADDED.................................................................................</p>
+              <h1 class="display-2 text-white ">Hello Amal</h1>
+              <p></p>
+              <!-- <p class="text-white mt-0 mb-5">(BIO) sOME DATA TO BE ADDED.................................................................................</p>-->
             
             </div>
           </div>
