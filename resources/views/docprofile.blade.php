@@ -119,49 +119,54 @@
                   <div>
                     <i class="ni education_hat mr-2"></i>Kodungalloor Medical College
                   </div>
-                  <hr class="my-4">
-                  <p>blaah blaah....</p>
-                  <a href="#">Show more</a>
+                  <hr class="my-4">    
+               <a href="#">docsulu@gmail.com</a>
                 </div>
               </div>
             </div>
             
-            
+            <!-- Patient details-->
+            <br>
               
                   <div class="card card-profile shadow">
                     <div class="row justify-content-center">
                       <div class="col-lg-3 order-lg-2">
                       </div>
                     </div>
-          <br>
                     <div class="card-body pt-0 pt-md-4">
-                      <div class="row">
-                        <div class="col">
-                          <div class="card-profile-stats d-flex justify-content-center mt-md-5">
-                            
-                          </div>
-                        </div>
-                      </div><br>
-                      <br>
-                      <div class="text-center">
-                        <h3>
-                          Dr Gokul P B<span class="font-weight-light">, 23</span>
-                        </h3>
-                        <div class="h5 font-weight-300">
-                          <i class="ni location_pin mr-2"></i> Kodungalloor,Kerala
-                        </div>
-                        <div class="h5 mt-4">
-                          <i class="ni business_briefcase-24 mr-2"></i>Oncologist
-                        </div>
-                        <div>
-                          <i class="ni education_hat mr-2"></i>Kodungalloor Medical College
-                        </div>
+                       <div class="text-center">
+                        <h2>
+                          Prescriptions<span class="font-weight-light"></span>
+                        </h2>
+                        <a href="#!" class="btn btn-sm btn-primary">New Patient</a>
+                        <a href="#!" class="btn btn-sm btn-primary">Existing Patient</a>
+                    
                         <hr class="my-4">
-                        <p>blaah blaah....</p>
-                        <a href="#">Show more</a>
                       </div>
                     </div>
                   </div>
+
+          <!-- Existing Patient-->
+                <br>
+                  <div class="card card-profile shadow">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-3 order-lg-2">
+                      </div>
+                    </div>
+                    <div class="card-body pt-0 pt-md-4">
+                       <div class="text-center">
+                        <h2>
+                          Prescriptions<span class="font-weight-light"></span>
+                        </h2>
+                        
+                        <a href="#!" class="btn btn-sm btn-primary">New Patient</a>
+                        <a href="#!" class="btn btn-sm btn-primary">Existing Patient</a>
+                    
+                        <hr class="my-4">
+                      </div>
+                    </div>
+                  </div>
+                  
                   
 
           </div>
