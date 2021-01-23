@@ -82,6 +82,7 @@
         </div>
       </div>
       <!-- Page content -->
+
       <div class="container-fluid mt--7">
         <div class="row">
           <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
@@ -124,7 +125,49 @@
                 </div>
               </div>
             </div>
+            
+            
+              
+                  <div class="card card-profile shadow">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-3 order-lg-2">
+                      </div>
+                    </div>
+          <br>
+                    <div class="card-body pt-0 pt-md-4">
+                      <div class="row">
+                        <div class="col">
+                          <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                            
+                          </div>
+                        </div>
+                      </div><br>
+                      <br>
+                      <div class="text-center">
+                        <h3>
+                          Dr Gokul P B<span class="font-weight-light">, 23</span>
+                        </h3>
+                        <div class="h5 font-weight-300">
+                          <i class="ni location_pin mr-2"></i> Kodungalloor,Kerala
+                        </div>
+                        <div class="h5 mt-4">
+                          <i class="ni business_briefcase-24 mr-2"></i>Oncologist
+                        </div>
+                        <div>
+                          <i class="ni education_hat mr-2"></i>Kodungalloor Medical College
+                        </div>
+                        <hr class="my-4">
+                        <p>blaah blaah....</p>
+                        <a href="#">Show more</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+
           </div>
+
+          <!-- Doc Details-->
+
           <div class="col-xl-8 order-xl-1">
             <div class="card bg-secondary shadow">
               <div class="card-header bg-white border-0">
@@ -170,8 +213,8 @@
                       </div>
                     </div>
                   </div>
+
                   <hr class="my-4">
-                  <!-- Address -->
                   <h6 class="heading-small text-muted mb-4">Contact information</h6>
                   <div class="pl-lg-4">
                     <div class="row">
@@ -204,15 +247,6 @@
                     </div>
                   </div>
                   <hr class="my-4">
-
-                  <!--Patient Details-->
-
-                  <div class="card card-profile shadow">
-
-
-                  </div>
-                  
-                  <!-- Description -->
                   <h6 class="heading-small text-muted mb-4">About me</h6>
                   <div class="pl-lg-4">
                     <div class="form-group focused">
@@ -221,12 +255,19 @@
                     </div>
                   </div>
                 </form>
+
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
+      <p>HAI</p>
     </div>
+
+    
+
     <footer class="footer">
       <div class="row align-items-center justify-content-xl-between">
         <div class="col-xl-6 m-auto text-center">
@@ -236,4 +277,8 @@
         </div>
       </div>
     </footer>
+
+
+
+    
   </body>
