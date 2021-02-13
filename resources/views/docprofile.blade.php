@@ -138,8 +138,9 @@
                         <h2>
                           Prescriptions<span class="font-weight-light"></span>
                         </h2>
-                        <a href="#!" class="btn btn-sm btn-primary">New Patient</a>
-                        <a href="#!" class="btn btn-sm btn-primary">Existing Patient</a>
+                        <input class="form-control" placeholder="Patient ID" type="text">
+                        <br>
+                        <a href="#!" class="btn btn-sm btn-primary">Submit</a>
                     
                         <hr class="my-4">
                       </div>
@@ -148,21 +149,20 @@
 
           <!-- Existing Patient-->
                 <br>
-                  <div class="card card-profile shadow">
+                  <div class="card card-profile shadow" >
                     <div class="row justify-content-center">
                       <div class="col-lg-3 order-lg-2">
                       </div>
                     </div>
                     <div class="card-body pt-0 pt-md-4">
                        <div class="text-center">
-                        <h2>
-                          Prescriptions<span class="font-weight-light"></span>
-                        </h2>
+                      
                         
-                        <a href="#!" class="btn btn-sm btn-primary">New Patient</a>
-                        <a href="#!" class="btn btn-sm btn-primary">Existing Patient</a>
                     
                         <hr class="my-4">
+
+                        
+
                       </div>
                     </div>
                   </div>
@@ -268,7 +268,7 @@
       </div>
 
 
-      <p>HAI</p>
+    
     </div>
 
     
